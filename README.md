@@ -123,15 +123,14 @@ AI-Video-Factory-Veo3/
 ## 🛠️ Installation
 
 1. Clone this repo  
-   ```bash
-   git clone https://github.com/YOUR-USERNAME/AI-Video-Factory-Veo3.git
-   cd AI-Video-Factory-Veo3
-
-
-
+   ```
+   git clone https://github.com/dineshbarri/AI-Video-Factory-Veo3-Automation-Pipeline.git
+   cd AI-Video-Factory-Veo3-Automation-Pipeline
 ---
 ## 💰 Cost Optimization
+
  ### 💸 Budget Management Tips
+ 
 1. Start Small - Test with 1-2 videos daily
 
 2. Monitor Usage - Use Google Cloud cost alerts
