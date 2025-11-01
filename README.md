@@ -32,8 +32,8 @@ The **AI Video Factory** is a modular, production-ready automation workflow that
 - Automatically creates **captions, hashtags, and titles** using Gemini (PaLM)
 - Uploads results to **Google Drive**
 - Logs metadata in **Google Sheets**
-- Sends **review/approval emails** via Gmail
-- Publishes to **YouTube** automatically (or after manual review)
+- Publishes to **YouTube** automatically
+- Sends Succesfully Created  emails via **Gmail**
 
 ---
 
@@ -44,28 +44,22 @@ The **AI Video Factory** is a modular, production-ready automation workflow that
 | 🎥 **AI Video Generation** | Generates unique, cinematic videos from text prompts using Google Veo3. |
 | 🧠 **AI Caption & Title Builder** | Uses Gemini / PaLM to generate optimized YouTube titles, tags, and hashtags. |
 | ☁️ **Drive & Sheet Integration** | Stores videos and logs metadata automatically. |
-| 📧 **Email Notifications** | Sends creative “Video Ready” messages with preview links. |
-| 🪄 **Hold-for-Review Webhook** | Optional manual approval before publishing to YouTube. |
 | 📊 **Smart Wait & Retry Logic** | Adaptive retry mechanism for long-running API operations. |
-| 🔐 **Secure Credential System** | Built with environment variables and OAuth2 best practices. |
+| 🔐 **Secure Credential System** | Built with environment variables or OAuth2 best practices. |
+| 🎬 **Youtube Upload** | Uploads “Video” to a social platform with preview links. |
+| 📧 **Email Notifications** | Sends creative “Video Ready” messages with preview links. |
 
 ---
 
 ## ⚙️ Workflow Architecture
 
 <p align="center">
-  <img src="assets/architecture_diagram.png" width="720">
+  <img src="assets/video_creation_pipeline.png" height = "800" width="600" alt="AI Video Creation Pipeline">
+	<br>
+  <em>End-to-End Automated Video Production Pipeline</em>
 </p>
 
-1. **Idea Source (Google Sheet / Form)** → captures video ideas  
-2. **Gemini Caption Generator** → creates creative captions & hashtags  
-3. **Veo3 Renderer** → generates MP4 videos (via Vertex AI endpoint)  
-4. **Smart Wait Node** → monitors render progress  
-5. **Drive Upload** → stores rendered video securely  
-6. **Google Sheets Logger** → appends record with metadata & links  
-7. **Email Notification Node** → sends preview & review buttons  
-8. **Hold-for-Review Webhook** → one-click approval to publish  
-9. **YouTube Upload Node** → publishes automatically once approved  
+
 
 ---
 
@@ -91,9 +85,7 @@ AI-Video-Factory-Veo3/
 │
 ├── 📄 README.md
 ├── 🧠 AI Video Factory Automator-Veo3.json      # main n8n workflow
-├── 🎨 banner.png                                # attractive banner (optional)
 ├── 📘 Credential_Setup_Wizard.html              # onboarding guide (exported HTML)
-├── 📑 HOLD_FOR_REVIEW_WEBHOOK_SETUP.md          # separate doc for review feature
 ├── ⚙️  LICENSE
 ├── 🧩 assets/
 │   ├── demo_screenshot.png
