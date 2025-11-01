@@ -3,7 +3,7 @@
 
 ## ⚙️ `Troubleshooting.md`
 
-```markdown
+
 # 🩺 AI Video Factory — Troubleshooting & Debug Guide
 
 > This document lists the most common issues, failure scenarios, and solutions for your **AI Video Factory (Veo3)** workflow.
@@ -83,6 +83,7 @@
 - Use **Execute Node** in n8n to isolate problem areas.  
 - Inspect **Execution Logs** → look for red “Error” labels.  
 - Add a “Debug Console” function node:
-  ```js
+  
+  js
   console.log($json);
   return items;
