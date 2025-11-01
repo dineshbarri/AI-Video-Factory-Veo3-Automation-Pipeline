@@ -54,10 +54,27 @@ The **AI Video Factory** is a modular, production-ready automation workflow that
 ## ⚙️ Workflow Architecture
 
 <p align="center">
-  <img src="assets/video_creation_pipeline.png" height = "800" width="600" alt="AI Video Creation Pipeline">
+  <img src="assets/video_creation_pipeline.png" height =  width="400" alt="AI Video Creation Pipeline">
 	<br>
   <em>End-to-End Automated Video Production Pipeline</em>
 </p>
+
+
+## 🔧 Core Modules & Nodes
+
+| Module | Purpose | Key Nodes |
+|--------|----------|-----------|
+| 💡 **Idea Input** | Accepts text prompts or creative ideas. | Google Sheets Trigger / Manual Input |
+| 🧠 **Gemini Caption Generator** | Uses Gemini / PaLM to generate titles, captions, and hashtags. | Gemini Text Generation Node |
+| 🎬 **Veo3 Video Generation** | Sends requests to Google Vertex AI’s Veo3 model. | HTTP Request Node (POST → Vertex AI Endpoint) |
+| ⏳ **Smart Wait & Retry System** | Waits for `operationName` completion from Vertex AI. | Function Node + Wait Node |
+| 💾 **Google Drive Upload** | Uploads final MP4 from Veo3 response to Drive. | Google Drive Upload Node |
+| 📺 **YouTube Upload** | Publishes approved videos directly to YouTube with metadata. | YouTube Upload Node |
+| 📋 **Google Sheets Logger** | Logs metadata: idea, caption, operationName, links, timestamps. | Google Sheets Append Row Node |
+| ✉️ **Gmail Notification** | Sends a success email with video preview, title, and review buttons. | Gmail Send Email Node |
+
+
+---
 
 
 ---
