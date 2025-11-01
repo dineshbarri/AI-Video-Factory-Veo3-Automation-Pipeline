@@ -77,26 +77,15 @@ The **AI Video Factory** is a modular, production-ready automation workflow that
 
 ## 🧩 Client Setup Guide
 
-***Before running the workflow, configure your API credentials securely.***
+- ***Before running the workflow, configure your API credentials securely.***
 
-**Use the interactive  Client Setup Guide 🌐  to walk through the step-by-step onboarding process and securely link your API credentials with n8n.**
+- **Use the interactive  Client Setup Guide 🌐  to walk through the step-by-step onboarding process and securely link your API credentials with n8n.**
 
 <p align="center">
   <a href="https://unrivaled-chaja-4615f0.netlify.app/" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/Open%20Client%20Setup%20Guide-blue?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Open Client Setup Guide">
   </a>
 </p>
-
-
-
-&nbsp;
-| Service | Purpose | Credential Type |
-|----------|----------|----------------|
-| Google Cloud | Veo3 model & Vertex AI API | Service Account (JSON) |
-| YouTube | Video upload | OAuth2 |
-| Gemini (PaLM) | Captions & metadata | API Key |
-| Drive & Sheets | File storage & logging | OAuth2 |
-| Gmail | Notifications | OAuth2 |
 
 > 🧱 All credentials should be created within the n8n Credentials Manager — never hardcode secrets in the workflow.
 
@@ -106,43 +95,64 @@ The **AI Video Factory** is a modular, production-ready automation workflow that
 AI-Video-Factory-Veo3/
 │
 ├── 📄 README.md
-├── 🧠 AI Video Factory Automator-Veo3.json      # main n8n workflow
-├── 📘 Credential_Setup_Wizard.html              # onboarding guide (exported HTML)
+├── 🧠 AI Video Factory Automator-Veo3.json  # main n8n workflow
 ├── ⚙️  LICENSE
 ├── 🧩 assets/
 │   ├── demo_screenshot.png
-│   ├── architecture_diagram.png
-│   └── sample_output_thumbnail.jpg
+│   ├── n8n_workflow_overview.png
+│   └── video_creation_pipeline.png
 └── 📁 docs/
-    ├── Veo3_API_Setup_Guide.md
-    ├── Workflow_Architecture.md
+    ├── client_setup_guide.html
+    ├── package.json
     └── Troubleshooting.md
 ```
----
 
-## 🔁 Review Flow
-
- 
-
----
 
 ## 🛠️ Installation
 
-1. Clone this repo  
-   ```
-   git clone https://github.com/dineshbarri/AI-Video-Factory-Veo3-Automation-Pipeline.git
-   cd AI-Video-Factory-Veo3-Automation-Pipeline
+Follow these steps to set up and run the **AI Video Factory — Veo3 Automation Pipeline** on your system:
+
+### 1️⃣ Clone the Repository
+- Clone the repository to your local environment and navigate into the project folder.
+
+``` 
+    git clone https://github.com/dineshbarri/AI-Video-Factory-Veo3-Automation-Pipeline.git
+    cd AI-Video-Factory-Veo3-Automation-Pipeline
+```
+###  2️⃣ Import the Workflow into n8n
+
+-  Open your n8n instance (Cloud or Local).  
+-  Click **Import Workflow → Upload JSON**, and select the file:  
+   **`AI Video Factory Automator-Veo3.json`**
+  -  Once imported, the workflow nodes and credentials structure will load automatically into your n8n dashboard.
+### 3️⃣ Configure API Credentials using client setup guide listed above.
+
+###  4️⃣ Verify the Workflow
+
+***Once all credentials are configured:***
+
+1. Run the workflow once inside **n8n**.
+2. Verify that all modules execute successfully:
+
+   -  ✅ All credentials are connected.  
+   -  📊 Google Sheets logging works.  
+   -  ☁️ Drive upload completes successfully.  
+   -  ✉️ Gmail notifications are delivered.  
+
+***Once verification is complete, your **AI Video Factory Automator** is fully functional and ready to:***
+
+- 🎬 Generate AI-powered videos.  
+- 📦 Store generated assets automatically.  
+- 📺 Publish directly to YouTube.  
+
 ---
 ## 💰 Cost Optimization
 
  ### 💸 Budget Management Tips
  
 1. Start Small - Test with 1-2 videos daily
-
 2. Monitor Usage - Use Google Cloud cost alerts
-
 3. Optimize Prompts - Reduce render failures
-
 4. Schedule Wisely - Align with content calendar
 
 ### 📈 Estimated Costs
