@@ -54,7 +54,7 @@ The **AI Video Factory** is a modular, production-ready automation workflow that
 ## ⚙️ Workflow Architecture
 
 <p align="center">
-  <img src="assets/video_creation_pipeline.png" height =  width="400" alt="AI Video Creation Pipeline">
+  <img src="assets/video_creation_pipeline.png"  width=" 450 " alt="AI Video Creation Pipeline">
 	<br>
   <em>End-to-End Automated Video Production Pipeline</em>
 </p>
