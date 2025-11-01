@@ -78,7 +78,7 @@ The **AI Video Factory** is a modular, production-ready automation workflow that
 
 
 Before running the workflow, configure your API credentials securely.  
-Use the interactive **[Client Setup Guide (opens in new tab)](https://cdn.jsdelivr.net/gh/dineshbarri/AI-Video-Factory-Veo3-Automation-Pipeline@main/client_setup_guide/ClientSetupGuide.html)** to follow a step-by-step onboarding process.
+Use the interactive **[Client Setup Guide (opens in new tab)](https://cdn.jsdelivr.net/gh/dineshbarri/AI-Video-Factory-Veo3-Automation-Pipeline@main/docs/client_setup_guide/ClientSetupGuide.html)** to follow a step-by-step onboarding process.
 
 
 | Service | Purpose | Credential Type |
