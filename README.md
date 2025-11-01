@@ -74,13 +74,22 @@ The **AI Video Factory** is a modular, production-ready automation workflow that
 | ✉️ **Gmail Notification** | Sends a success email with video preview, title, and review buttons. | Gmail Send Email Node |
 
 ---
-## 🧭 Credential Setup Guide
+
+## 🧩 Client Setup Guide
+
+***Before running the workflow, configure your API credentials securely.***
+
+**Use the interactive  Client Setup Guide 🌐  to walk through the step-by-step onboarding process and securely link your API credentials with n8n.**
+
+<p align="center">
+  <a href="https://unrivaled-chaja-4615f0.netlify.app/" target="_blank" rel="noopener noreferrer">
+    <img src="https://img.shields.io/badge/Open%20Client%20Setup%20Guide-blue?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Open Client Setup Guide">
+  </a>
+</p>
 
 
-Before running the workflow, configure your API credentials securely.  
-Use the interactive **[Client Setup Guide (opens in new tab)](https://cdn.jsdelivr.net/gh/dineshbarri/AI-Video-Factory-Veo3-Automation-Pipeline@main/docs/client_setup_guide/ClientSetupGuide.html)** to follow a step-by-step onboarding process.
 
-
+&nbsp;
 | Service | Purpose | Credential Type |
 |----------|----------|----------------|
 | Google Cloud | Veo3 model & Vertex AI API | Service Account (JSON) |
