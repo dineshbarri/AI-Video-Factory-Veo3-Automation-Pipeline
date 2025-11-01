@@ -73,16 +73,12 @@ The **AI Video Factory** is a modular, production-ready automation workflow that
 | 📋 **Google Sheets Logger** | Logs metadata: idea, caption, operationName, links, timestamps. | Google Sheets Append Row Node |
 | ✉️ **Gmail Notification** | Sends a success email with video preview, title, and review buttons. | Gmail Send Email Node |
 
-
 ---
-
-
----
-
 ## 🧭 Credential Setup Guide
 
-Before running, connect your API credentials securely.  
-Use the included **[Credential_Setup_Wizard.html](./Credential_Setup_Wizard.html)** for an interactive step-by-step setup.
+Before running the workflow, configure your API credentials securely.  
+Use the included [Client Setup Guide](./client_setup_guide/ClientSetupGuide.html) for an interactive step-by-step setup.
+
 
 | Service | Purpose | Credential Type |
 |----------|----------|----------------|
@@ -116,20 +112,7 @@ AI-Video-Factory-Veo3/
 
 ## 🔁 Review Flow
 
-Each rendered video can be manually approved before publishing.  
-The system generates a **unique review token** stored in Google Sheets.
-
-### ✉️ Example Email
-
-> **Subject:** 🎬 Your AI Video is Ready!  
-> **Buttons:** ✅ Publish | ❌ Reject  
-> **Webhook:** [n8n_webhook/hold-review](#)
-
-Once the “Publish” button is clicked:
-- Workflow validates the secure token  
-- Downloads the video from Drive  
-- Uploads it to YouTube  
-- Updates the status in Google Sheet  
+ 
 
 ---
 
