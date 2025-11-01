@@ -19,10 +19,6 @@
 <img src="https://img.shields.io/badge/AI-Generated-success?style=for-the-badge&logo=openai" alt="AI">
 <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License">
 
-
-</div>
-
-
 ---
 
 ## 🚀 Overview
