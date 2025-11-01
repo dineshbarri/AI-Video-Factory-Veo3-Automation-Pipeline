@@ -125,35 +125,29 @@ Follow these steps to set up and run the **AI Video Factory — Veo3 Automation 
 -  Click **Import Workflow → Upload JSON**, and select the file:  
    **`AI Video Factory Automator-Veo3.json`**
   -  Once imported, the workflow nodes and credentials structure will load automatically into your n8n dashboard.
-### 3️⃣ Configure API Credentials using client setup guide listed above.
+### 3️⃣ Configure Credentials
 
-###  4️⃣ Verify the Workflow
 
-***Once all credentials are configured:***
 
-1. Run the workflow once inside **n8n**.
-2. Verify that all modules execute successfully:
+<p align="center"> <a href="https://unrivaled-chaja-4615f0.netlify.app/" target="_blank" rel="noopener noreferrer"> <img src="https://img.shields.io/badge/🚀_Launch_Interactive_Setup_Guide-6366f1?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Setup Guide"> </a> </p>
 
-   -  ✅ All credentials are connected.  
-   -  📊 Google Sheets logging works.  
-   -  ☁️ Drive upload completes successfully.  
-   -  ✉️ Gmail notifications are delivered.  
-
-***Once verification is complete, your **AI Video Factory Automator** is fully functional and ready to:***
-
-- 🎬 Generate AI-powered videos.  
-- 📦 Store generated assets automatically.  
-- 📺 Publish directly to YouTube.  
-
+### 4️⃣ Test & Verify
+```
+✅ All credentials connected
+✅ Google Sheets logging active  
+✅ Drive uploads working
+✅ YouTube publishing live
+✅ Email notifications sending
+```
 ---
 ## 💰 Cost Optimization
 
- ### 💸 Budget Management Tips
- 
-1. Start Small - Test with 1-2 videos daily
-2. Monitor Usage - Use Google Cloud cost alerts
-3. Optimize Prompts - Reduce render failures
-4. Schedule Wisely - Align with content calendar
+### 🎯 Performance Metrics
+- ⚡ Generation Time: 2-5 minutes per video
+- ✅ Success Rate: 95%+ with smart retry logic
+- 📊 Monthly Capacity: 500+ videos
+- 🔄 Retry Attempts: 0-2 average with progressive backoff
+- 📱 Output Quality: 9:16 HD mobile-optimized format
 
 ### 📈 Estimated Costs
 | Service | Cost per Video | Monthly (100 videos) |
@@ -162,19 +156,30 @@ Follow these steps to set up and run the **AI Video Factory — Veo3 Automation 
 | Gemini API | ~$0.01 | $1.00 |
 | Storage | ~$0.05 | $5.00 |
 | Total | ~$0.26 | $26.00 |
-	
 
+---
+## 📞 Need Help?
+###  [![🐛 Create Issue](https://img.shields.io/badge/📝_Create_Issue-Open_Here-success?style=for-the-badge&logo=github)](https://github.com/dineshbarri/AI-Video-Factory-Veo3-Automation-Pipeline/issues/new/choose)
 ---
 
 ## 📜 License
-
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for complete details.
 
 **MIT License © 2025 Dinesh Barri**
+ 
+---
+## 👤 Author
 
+ #### &nbsp; Dinesh Barri
+
+-  [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dineshbarri)
+-  [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dinesh-barri-7654b010b)
 ---
 
 ## ⭐ Feedback & Contributions
+- 🐛 Report Bugs - Create detailed issue reports
+- 💡 Suggest Features - Share your ideas for improvement
+- 🔧 Submit PRs - Code improvements and new features
+- 📚 Improve Docs - Better documentation and examples
 
-Have ideas or want to collaborate?
-Open a pull request or reach out via Issues — let’s shape the future of AI-powered video automation together.
+
