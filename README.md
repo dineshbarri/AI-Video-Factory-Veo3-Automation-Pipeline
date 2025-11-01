@@ -76,8 +76,12 @@ The **AI Video Factory** is a modular, production-ready automation workflow that
 ---
 ## 🧭 Credential Setup Guide
 
-Before running the workflow, configure your API credentials securely.  
-Use the included [Client Setup Guide](./client_setup_guide/ClientSetupGuide.html) for an interactive step-by-step setup.
+
+**Before running the workflow, configure your API credentials securely.**
+
+Use the interactive **[Client Setup Guide — Open in new tab](https://dineshbarri.github.io/AI-Video-Factory-Veo3-Automated-AI-Video-Generation-Pipeline-n8n-Google-Vertex-AI-/client_setup_guide/ClientSetupGuide.html)** to walk through onboarding step-by-step.  
+(Prefer GitHub Pages for a rendered web page. See *Setup → Pages* in repository settings.)
+
 
 
 | Service | Purpose | Credential Type |
