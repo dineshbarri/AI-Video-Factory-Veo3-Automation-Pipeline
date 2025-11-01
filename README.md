@@ -46,7 +46,6 @@ The **AI Video Factory** is a modular, production-ready automation workflow that
 | 📧 **Email Notifications** | Sends creative “Video Ready” messages with preview links. |
 
 ---
-
 ## ⚙️ Workflow Architecture
 
 <p align="center">
@@ -55,6 +54,93 @@ The **AI Video Factory** is a modular, production-ready automation workflow that
   <em>End-to-End Automated Video Production Pipeline</em>
 </p>
 
+---
+##  🖼️ Workflow Demo
+
+
+<div align="center">
+
+<div style="display: flex; flex-direction: column; gap: 30px; align-items: center;">
+
+<!-- Workflow Overview -->
+<div style="border: 1px solid #e1e4e8; border-radius: 12px; padding: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); background: white; max-width: 850px;">
+    <img src="assets/workflow-overview.png" alt="AI Video Factory Complete Workflow" style="width: 100%; border-radius: 8px;"/>
+    <div style="text-align: center; margin-top: 15px;">
+        <h3 style="color: #2c3e50; margin-bottom: 8px;"> </h3>
+        <p style="color: #666; line-height: 1.5;">Complete n8n workflow showing the entire AI video generation pipeline from idea creation to multi-platform publishing</p>
+    </div>
+</div>
+
+<div style="display:flex; flex-wrap:wrap; justify-content:center; align-items:flex-start; gap:24px; margin:30px auto; max-width:1100px;">
+
+  <!-- Left: Workflow View -->
+  <div style="flex:1; min-width:420px; text-align:center; background:#f9fafb; border:1px solid #e5e7eb; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.08); padding:14px;">
+    <h3 style="color:#4f46e5; margin-top:0;">🎬 Active n8n Workflow Execution</h3>
+    <img src="assets/execution_demo.png" alt="n8n Execution Demo" width="100%" style="border-radius:10px; border:1px solid #e5e7eb;">
+    <p style="font-size:14px; color:#6b7280; margin-top:10px;">
+      Real-time execution in <strong>n8n</strong> — showing the <em>Idea Generator</em>, <em>Gemini Model</em>, and <em>Prompt Builder</em> nodes producing a creative prompt ready for Veo3 generation.
+    </p>
+  </div>
+
+  <!-- Right: Google Sheets Log -->
+  <div style="flex:1; min-width:420px; text-align:center; background:#ffffff; border:1px solid #e5e7eb; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.08); padding:14px;">
+    <h3 style="color:#10b981; margin-top:0;">📊 Logged Output in Google Sheets</h3>
+    <img src="assets/execution_logged_sheet.png" alt="Google Sheets Output Log" width="100%" style="border-radius:10px; border:1px solid #e5e7eb;">
+    <p style="font-size:14px; color:#6b7280; margin-top:10px;">
+      The output of executed nodes is logged automatically in <strong>Google Sheets</strong>.<br>
+      Rows marked <span style="color:#dc2626; font-weight:600;">for production</span> indicate videos ready for Veo3 rendering and YouTube publishing.
+    </p>
+  </div>
+
+</div>
+
+<!-- Veo3 Generation -->
+<div style="border: 1px solid #e1e4e8; border-radius: 12px; padding: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); background: white; max-width: 850px;">
+    <img src="assets/veo3-generation.png" alt="AI Video Generation with Veo3" style="width: 100%; border-radius: 8px;"/>
+    <div style="text-align: center; margin-top: 15px;">
+        <h3 style="color: #2c3e50; margin-bottom: 8px;">🎬 Google Veo3 AI Video Production</h3>
+        <p style="color: #666; line-height: 1.5;">AI-powered video generation using Google's Veo3 model, showing prompt processing and video creation workflow</p>
+    </div>
+</div>
+
+<!-- YouTube Publishing -->
+<div style="border: 1px solid #e1e4e8; border-radius: 12px; padding: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); background: white; max-width: 850px;">
+    <img src="assets/youtube-publishing.png" alt="Multi-Platform Video Publishing" style="width: 100%; border-radius: 8px;"/>
+    <div style="text-align: center; margin-top: 15px;">
+        <h3 style="color: #2c3e50; margin-bottom: 8px;">📺 Automated YouTube & Drive Publishing</h3>
+        <p style="color: #666; line-height: 1.5;">Seamless multi-platform publishing to YouTube and Google Drive with automated metadata and description generation</p>
+    </div>
+</div>
+
+<!-- Email Notification -->
+<div style="border: 1px solid #e1e4e8; border-radius: 12px; padding: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); background: white; max-width: 850px;">
+    <img src="assets/email-notification.png" alt="Success Notification System" style="width: 100%; border-radius: 8px;"/>
+    <div style="text-align: center; margin-top: 15px;">
+        <h3 style="color: #2c3e50; margin-bottom: 8px;">✉️ Automated Success Notifications</h3>
+        <p style="color: #666; line-height: 1.5;">Professional email notifications sent upon workflow completion with video details and platform links</p>
+    </div>
+</div>
+
+</div>
+
+<br>
+
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 30px; border-radius: 12px; color: white; text-align: center; max-width: 850px;">
+    <h2 style="margin-bottom: 15px;">🚀 Ready to Automate Your Video Production?</h2>
+    <p style="margin-bottom: 20px; opacity: 0.9;">This workflow demonstrates complete AI-powered video creation from concept to distribution</p>
+    <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
+        <a href="#installation" style="background: white; color: #667eea; padding: 12px 24px; border-radius: 6px; text-decoration: none; font-weight: 600; transition: transform 0.2s;">Get Started</a>
+        <a href="#usage" style="background: transparent; color: white; padding: 12px 24px; border-radius: 6px; text-decoration: none; font-weight: 600; border: 2px solid white; transition: transform 0.2s;">View Documentation</a>
+    </div>
+</div>
+
+</div>
+
+
+
+
+
+---
 
 ## 🔧 Core Modules & Nodes
 
@@ -91,16 +177,19 @@ The **AI Video Factory** is a modular, production-ready automation workflow that
 AI-Video-Factory-Veo3/
 │
 ├── 📄 README.md
-├── 🧠 AI Video Factory Automator-Veo3.json  # main n8n workflow
-├── ⚙️  LICENSE
+├── 🧠 AI Video Factory Automator-Veo3.json # main n8n workflow
+├── ⚙️ LICENSE
 ├── 🧩 assets/
-│   ├── demo_screenshot.png
-│   ├── n8n_workflow_overview.png
-│   └── video_creation_pipeline.png
+│ ├── workflow-overview.png
+│ ├── execution-demo.png
+│ ├── veo3-generation.png
+│ ├── youtube-publishing.png
+│ ├── email-notification.png
+│ └── video_creation_pipeline.png
 └── 📁 docs/
-    ├── client_setup_guide.html
-    ├── package.json
-    └── Troubleshooting.md
+├── client_setup_guide.html
+├── package.json
+└── Troubleshooting.md
 ```
 
 
