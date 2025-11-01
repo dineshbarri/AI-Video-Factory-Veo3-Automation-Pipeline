@@ -18,9 +18,9 @@
 <img src="https://img.shields.io/badge/YouTube-Upload-red?style=for-the-badge&logo=youtube" alt="YouTube">
 <img src="https://img.shields.io/badge/AI-Generated-success?style=for-the-badge&logo=openai" alt="AI">
 <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License">
+</div>
 
 ---
-
 ## 🚀 Overview
 
 The **AI Video Factory** is a modular, production-ready automation workflow that:
