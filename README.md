@@ -197,6 +197,24 @@ margin:15px 0;">
 
 ---
 
+## ⚖️ Success vs Failure Flow
+
+<div align="center">
+
+<img src="assets/success_failure_flow.png" width="600"
+style="border-radius:16px;border:3px solid #E5E7EB;
+box-shadow:0 10px 30px rgba(0,0,0,0.08);margin:20px 0;">
+
+<p style="font-size:14px;color:#4B5563;max-width:750px;margin:0 auto;">
+This visual clearly differentiates the two possible outcomes of the <strong>Smart Retry System</strong>.<br>
+🟢 <strong>Success Path</strong> — smooth render completion, uploads, and success notifications.<br>
+🔴 <strong>Failure Path</strong> — intelligent retries followed by a Gmail alert if the job fails.
+</p>
+
+</div>
+
+---
+
 ### 4. ☁️ File Processing & Upload
 
 <div align="center">
@@ -247,32 +265,14 @@ margin:15px 0;">
 ### 📺 Output 3 — YouTube Upload with Metadata
 
 <img src="assets/youtube_upload_output.png" width="600"
-style="border-radius:14px;border:3px solid #EF4444;
-box-shadow:0 10px 28px rgba(239,68,68,0.35);
-margin:15px 0;">
+>
 
 <p align="center" style="font-size:14px;color:#4B5563;">
 🎬 The <strong>YouTube Upload</strong> node publishes videos directly with AI-generated <em>title, description, hashtags, and thumbnail</em>.<br>
 🚀 End-to-end automated publishing in one click.
 </p>
 	
----
 
-## ⚖️ Success vs Failure Flow
-
-<div align="center">
-
-<img src="assets/success_failure_flow.png" width="600"
-style="border-radius:16px;border:3px solid #E5E7EB;
-box-shadow:0 10px 30px rgba(0,0,0,0.08);margin:20px 0;">
-
-<p style="font-size:14px;color:#4B5563;max-width:750px;margin:0 auto;">
-This visual clearly differentiates the two possible outcomes of the <strong>Smart Retry System</strong>.<br>
-🟢 <strong>Success Path</strong> — smooth render completion, uploads, and success notifications.<br>
-🔴 <strong>Failure Path</strong> — intelligent retries followed by a Gmail alert if the job fails.
-</p>
-
-</div>
 ---
 
 ### 5. 🧾 Data Logging & Success Notification
@@ -292,6 +292,7 @@ margin:20px 0;">
 🧩 <em>Data Merge → Google Sheets Log → Gmail Success Notification</em>
 </p>
 </div>
+
 ---
 
 ## 🎥 Output — YouTube Upload & Gmail Success 
