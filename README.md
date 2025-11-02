@@ -60,89 +60,17 @@ The **AI Video Factory** is a modular, production-ready automation workflow that
 
 <div align="center">
 
-<div style="display: flex; flex-direction: column; gap: 30px; align-items: center;">
 
-<!-- Workflow Overview -->
-<div style="border: 1px solid #e1e4e8; border-radius: 12px; padding: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); background: white; max-width: 850px;">
-    <img src="assets/workflow-overview.png" alt="AI Video Factory Complete Workflow" style="width: 100%; border-radius: 8px;"/>
-    <div style="text-align: center; margin-top: 15px;">
-        <h3 style="color: #2c3e50; margin-bottom: 8px;"> </h3>
-        <p style="color: #666; line-height: 1.5;">⚙️ Complete n8n workflow — from idea generation to YouTube publishing</p>
-    </div>
+
+![Workflow Overview](assets/workflow-overview.png)
+*Complete n8n workflow showing the end-to-end automation pipeline*
 </div>
 
-<div align="center">
-
-### 🔄 Real-time Automation in Action
-
-<table>
-  <tr>
-    <td width="60%">
-      <img src="assets/execution_demo.png" alt="Workflow Execution" style="width: 100%; border: 1px solid #e1e4e8; border-radius: 8px;"/>
-    </td>
-    <td width="40%">
-      <img src="assets/execution-logged_sheet.png" alt="Google Sheets Data Log" style="width: 100%; border: 1px solid #e1e4e8; border-radius: 8px;"/>
-    </td>
-  </tr>
-</table>
-
-</div>
-
-### 📊 Execution Process
-
-After successful AI idea generation and cinematic prompt creation, the workflow automatically logs each concept to Google Sheets with a **"for production"** status, ensuring:
-
-- **Data Persistence**: All generated ideas are stored for tracking and management
-- **Production Readiness**: Concepts marked as ready for video generation
-- **Workflow Continuity**: Seamless handoff to the next automation stages
-
-The system captures AI-generated concepts like "Polar bear barista delicately serves espresso to penguin and seal customers. and prepares them for the Veo3 video generation pipeline.
+**🧭 Workflow Path:**
+Schedule Trigger → Idea Generator → Gemini → Veo3 API → Drive → YouTube → Sheets → Gmail
 
 
-
-
-<!-- Veo3 Generation -->
-<div style="border: 1px solid #e1e4e8; border-radius: 12px; padding: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); background: white; max-width: 850px;">
-    <img src="assets/veo3-generation.png" alt="AI Video Generation with Veo3" style="width: 100%; border-radius: 8px;"/>
-    <div style="text-align: center; margin-top: 15px;">
-        <h3 style="color: #2c3e50; margin-bottom: 8px;">🎬 Google Veo3 AI Video Production</h3>
-        <p style="color: #666; line-height: 1.5;">AI-powered video generation using Google's Veo3 model, showing prompt processing and video creation workflow</p>
-    </div>
-</div>
-
-<!-- YouTube Publishing -->
-<div style="border: 1px solid #e1e4e8; border-radius: 12px; padding: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); background: white; max-width: 850px;">
-    <img src="assets/youtube-publishing.png" alt="Multi-Platform Video Publishing" style="width: 100%; border-radius: 8px;"/>
-    <div style="text-align: center; margin-top: 15px;">
-        <h3 style="color: #2c3e50; margin-bottom: 8px;">📺 Automated YouTube & Drive Publishing</h3>
-        <p style="color: #666; line-height: 1.5;">Seamless multi-platform publishing to YouTube and Google Drive with automated metadata and description generation</p>
-    </div>
-</div>
-
-<!-- Email Notification -->
-<div style="border: 1px solid #e1e4e8; border-radius: 12px; padding: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); background: white; max-width: 850px;">
-    <img src="assets/email-notification.png" alt="Success Notification System" style="width: 100%; border-radius: 8px;"/>
-    <div style="text-align: center; margin-top: 15px;">
-        <h3 style="color: #2c3e50; margin-bottom: 8px;">✉️ Automated Success Notifications</h3>
-        <p style="color: #666; line-height: 1.5;">Professional email notifications sent upon workflow completion with video details and platform links</p>
-    </div>
-</div>
-
-</div>
-
-<br>
-
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 30px; border-radius: 12px; color: white; text-align: center; max-width: 850px;">
-    <h2 style="margin-bottom: 15px;">🚀 Ready to Automate Your Video Production?</h2>
-    <p style="margin-bottom: 20px; opacity: 0.9;">This workflow demonstrates complete AI-powered video creation from concept to distribution</p>
-    <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
-        <a href="#installation" style="background: white; color: #667eea; padding: 12px 24px; border-radius: 6px; text-decoration: none; font-weight: 600; transition: transform 0.2s;">Get Started</a>
-        <a href="#usage" style="background: transparent; color: white; padding: 12px 24px; border-radius: 6px; text-decoration: none; font-weight: 600; border: 2px solid white; transition: transform 0.2s;">View Documentation</a>
-    </div>
-</div>
-
-</div>
-
+### 1. Idea Generation Pipeline
 
 
 
