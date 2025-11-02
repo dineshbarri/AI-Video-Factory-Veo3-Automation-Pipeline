@@ -102,12 +102,12 @@ Schedule Trigger → Idea Generator → Gemini → Veo3 API → Drive → YouTub
 ### 2. 🎬 Veo3 Video Generation Core
 
 
-<div align="center" style="max-width:900px;margin:0 auto;">
+<div align="center" >
 
 
 
 <!-- MAIN FLOW DIAGRAM -->
-<img src="assets/veo3_video_generation.png" width="750" 
+<img src="assets/veo3_video_generation.png" width="600" 
 style="border-radius:16px;border:3px solid #4FD1C5;
 box-shadow:0 12px 35px rgba(79,209,197,0.4);
 margin:20px 0;">
@@ -119,7 +119,7 @@ margin:20px 0;">
 
 ### ⚙️ Output 1 — Prompt Generation & API Setup
 
-<img src="assets/veo3_output.png" width="700"
+<img src="assets/veo3_output.png" width="600"
 style="border-radius:14px;border:3px solid #48BB78;
 box-shadow:0 10px 28px rgba(72,187,120,0.35);
 margin:15px 0;">
@@ -131,7 +131,7 @@ margin:15px 0;">
 
 ### ⚡ Output 2 — Video Generation & Render Status
 
-<img src="assets/veo3_rendered_output.png" width="700"
+<img src="assets/veo3_rendered_output.png" width="600"
 style="border-radius:14px;border:3px solid #48BB78;
 box-shadow:0 10px 28px rgba(72,187,120,0.35);
 margin:15px 0;">
@@ -159,7 +159,7 @@ Resilient automation built to recover from API delays and failures — ensuring 
 </p>
 
 <!-- MAIN FLOW IMAGE -->
-<img src="assets/smart_wait_system.png" width="750"
+<img src="assets/smart_wait_system.png" width="600"
 style="border-radius:16px;border:3px solid #60A5FA;
 box-shadow:0 12px 35px rgba(96,165,250,0.4);
 margin:20px 0;">
@@ -170,7 +170,7 @@ margin:20px 0;">
 
 ### ⏳ Output 1 — Retry Logic in Action
 
-<img src="assets/wait_system_output.png" width="700"
+<img src="assets/wait_system_output.png" width="600"
 style="border-radius:14px;border:3px solid #3B82F6;
 box-shadow:0 10px 28px rgba(59,130,246,0.35);
 margin:15px 0;">
@@ -183,7 +183,7 @@ margin:15px 0;">
 
 ### 📧 Output 2 — Failure Notification Alert
 
-<img src="assets/failure_email_output.png" width="700"
+<img src="assets/failure_email_output.png" width="600"
 style="border-radius:14px;border:3px solid #F87171;
 box-shadow:0 10px 28px rgba(248,113,113,0.35);
 margin:15px 0;">
@@ -199,14 +199,14 @@ margin:15px 0;">
 
 ### 4. ☁️ File Processing & Upload
 
-<div align="center" style="max-width:900px;margin:0 auto;">
+<div align="center">
 
 <p style="font-size:16px;color:#374151;">
 From AI-rendered data to published content — this segment converts, uploads, and organizes your video files seamlessly across Google services.
 </p>
 
 <!-- MAIN FLOW IMAGE -->
-<img src="assets/file_processing_upload.png" width="750"
+<img src="assets/file_processing_upload.png" width="600"
 style="border-radius:16px;border:3px solid #38BDF8;
 box-shadow:0 12px 35px rgba(56,189,248,0.4);
 margin:20px 0;">
@@ -218,7 +218,7 @@ margin:20px 0;">
 
 ### 🎞️ Output 1 — Base64 to MP4 Conversion
 
-<img src="assets/base64_to_mp4_output.png" width="700"
+<img src="assets/base64_to_mp4_output.png" width="600"
 style="border-radius:14px;border:3px solid #0EA5E9;
 box-shadow:0 10px 28px rgba(14,165,233,0.35);
 margin:15px 0;">
@@ -232,7 +232,7 @@ margin:15px 0;">
 
 ### ☁️ Output 2 — Google Drive Upload
 
-<img src="assets/drive_upload_output.png" width="700"
+<img src="assets/drive_upload_output.png" width="600"
 style="border-radius:14px;border:3px solid #10B981;
 box-shadow:0 10px 28px rgba(16,185,129,0.35);
 margin:15px 0;">
@@ -246,7 +246,7 @@ margin:15px 0;">
 
 ### 📺 Output 3 — YouTube Upload with Metadata
 
-<img src="assets/youtube_upload_output.png" width="700"
+<img src="assets/youtube_upload_output.png" width="600"
 style="border-radius:14px;border:3px solid #EF4444;
 box-shadow:0 10px 28px rgba(239,68,68,0.35);
 margin:15px 0;">
@@ -260,7 +260,7 @@ margin:15px 0;">
 
 ## ⚖️ Success vs Failure Flow
 
-<div align="center" style="max-width:700px;margin:0 auto;">
+<div align="center">
 
 <img src="assets/success_failure_flow.png" width="600"
 style="border-radius:16px;border:3px solid #E5E7EB;
@@ -275,53 +275,23 @@ This visual clearly differentiates the two possible outcomes of the <strong>Smar
 </div>
 ---
 
-🧾 Data Logging & Success Notification
+### 5. 🧾 Data Logging & Success Notification
 
-<div align="center" style="max-width:900px;margin:0 auto;">
+<div align="center" >
 
 <p style="font-size:16px;color:#374151;">
 Every successful video is logged, tracked, and celebrated — with automated data entry and a personalized success email.
 </p>
 
 <!-- MAIN FLOW IMAGE -->
-<img src="assets/logging_notification_flow.png" width="750"
+<img src="assets/logging_notification.png" width="750"
 style="border-radius:16px;border:3px solid #A78BFA;
 box-shadow:0 12px 35px rgba(167,139,250,0.4);
 margin:20px 0;">
 <p style="font-size:14px;color:#6B7280;margin-top:5px;">
-🧩 Workflow Segment — <em>Data Merge → Google Sheets Log → Gmail Success Notification</em>
+🧩 <em>Data Merge → Google Sheets Log → Gmail Success Notification</em>
 </p>
-
----
-
-### 📊 Output 1 — Google Sheets Logging
-
-<img src="assets/sheet_logging_output.png" width="700"
-style="border-radius:14px;border:3px solid #8B5CF6;
-box-shadow:0 10px 28px rgba(139,92,246,0.35);
-margin:15px 0;">
-
-<p align="center" style="font-size:14px;color:#4B5563;">
-📈 The <strong>Google Sheets Log</strong> node appends every finished video entry with its <em>title, caption, YouTube link, Drive link, and timestamp</em>.<br>
-🗂️ Keeps a transparent history of all renders — your complete production ledger.
-</p>
-
----
-
-### ✉️ Output 2 — Success Notification Email
-
-<img src="assets/success_email_output.png" width="700"
-style="border-radius:14px;border:3px solid #C084FC;
-box-shadow:0 10px 28px rgba(192,132,252,0.35);
-margin:15px 0;">
-
-<p align="center" style="font-size:14px;color:#4B5563;">
-💌 The <strong>Gmail Notification</strong> node delivers a beautifully formatted HTML email.<br>
-Includes video title, direct YouTube link, and project metadata — confirming the automation’s success in style.
-</p>
-
-
-
+</div>
 ---
 
 ## 🎥 Output — YouTube Upload & Gmail Success 
@@ -352,7 +322,7 @@ Seamless AI-to-YouTube upload — fully automated with title, caption, and tags.
 </tr>
 </table>
 
----
+</div>
 
 
 ---
