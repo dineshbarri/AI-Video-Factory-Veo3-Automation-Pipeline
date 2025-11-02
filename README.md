@@ -77,12 +77,9 @@ Schedule Trigger → Idea Generator → Gemini → Veo3 API → Drive → YouTub
 
 ---
 
-### 1. Idea Generation Pipeline
-
-
 <div align="center">
 
-
+### 1. Idea Generation Pipeline
 
 <br>
 <img src="assets/idea_generator.png" width="650" style="border-radius:14px;border:4px solid #4FD1C5;box-shadow:0 12px 35px rgba(79,209,197,0.4);margin:15px 0">
@@ -104,12 +101,12 @@ Schedule Trigger → Idea Generator → Gemini → Veo3 API → Drive → YouTub
 - **Status**: "for production" flag
 
 
-### 2. 🎬 Veo3 Video Generation Core
+
 
 
 <div align="center" >
 
-
+### 2. 🎬 Veo3 Video Generation Core
 
 <!-- MAIN FLOW DIAGRAM -->
 <img src="assets/veo3_video_generation.png" width="600" 
@@ -155,9 +152,9 @@ margin:15px 0;">
 
 ---
 
-### 3. 🔁 Smart Retry System & Failure Handling
-
 <div align="center">
+
+### 3. 🔁 Smart Retry System & Failure Handling
 
 <p style="font-size:16px;color:#374151;">
 Resilient automation built to recover from API delays and failures — ensuring every Veo3 render completes or gracefully notifies you.
@@ -202,9 +199,11 @@ margin:15px 0;">
 
 ---
 
-## ⚖️ Success vs Failure Flow
+
 
 <div align="center">
+
+## ⚖️ Success vs Failure Flow
 
 <img src="assets/success_failure_flow.png" width="600"
 style="border-radius:16px;border:3px solid #E5E7EB;
@@ -220,9 +219,11 @@ This visual clearly differentiates the two possible outcomes of the <strong>Smar
 
 ---
 
-### 4. ☁️ File Processing & Upload
+
 
 <div align="center">
+
+### 4. ☁️ File Processing & Upload
 
 <p style="font-size:16px;color:#374151;">
 From AI-rendered data to published content — this segment converts, uploads, and organizes your video files seamlessly across Google services.
@@ -280,9 +281,11 @@ margin:15px 0;">
 
 ---
 
-### 5. 🧾 Data Logging & Success Notification
+
 
 <div align="center" >
+
+### 5. 🧾 Data Logging & Success Notification
 
 <p style="font-size:16px;color:#374151;">
 Every successful video is logged, tracked, and celebrated — with automated data entry and a personalized success email.
@@ -329,7 +332,6 @@ Seamless AI-to-YouTube upload — fully automated with title, caption, and tags.
 </table>
 
 </div>
-
 
 ---
 
