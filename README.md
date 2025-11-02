@@ -67,32 +67,39 @@ The **AI Video Factory** is a modular, production-ready automation workflow that
     <img src="assets/workflow-overview.png" alt="AI Video Factory Complete Workflow" style="width: 100%; border-radius: 8px;"/>
     <div style="text-align: center; margin-top: 15px;">
         <h3 style="color: #2c3e50; margin-bottom: 8px;"> </h3>
-        <p style="color: #666; line-height: 1.5;">Complete n8n workflow showing the entire AI video generation pipeline from idea creation to multi-platform publishing</p>
+        <p style="color: #666; line-height: 1.5;">⚙️ Complete n8n workflow — from idea generation to YouTube publishing</p>
     </div>
 </div>
 
-<div style="display:flex; flex-wrap:wrap; justify-content:center; align-items:flex-start; gap:24px; margin:30px auto; max-width:1100px;">
+<div align="center">
 
-  <!-- Left: Workflow View -->
-  <div style="flex:1; min-width:420px; text-align:center; background:#f9fafb; border:1px solid #e5e7eb; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.08); padding:14px;">
-    <h3 style="color:#4f46e5; margin-top:0;">🎬 Active n8n Workflow Execution</h3>
-    <img src="assets/execution_demo.png" alt="n8n Execution Demo" width="100%" style="border-radius:10px; border:1px solid #e5e7eb;">
-    <p style="font-size:14px; color:#6b7280; margin-top:10px;">
-      Real-time execution in <strong>n8n</strong> — showing the <em>Idea Generator</em>, <em>Gemini Model</em>, and <em>Prompt Builder</em> nodes producing a creative prompt ready for Veo3 generation.
-    </p>
-  </div>
+### 🔄 Real-time Automation in Action
 
-  <!-- Right: Google Sheets Log -->
-  <div style="flex:1; min-width:420px; text-align:center; background:#ffffff; border:1px solid #e5e7eb; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.08); padding:14px;">
-    <h3 style="color:#10b981; margin-top:0;">📊 Logged Output in Google Sheets</h3>
-    <img src="assets/execution_logged_sheet.png" alt="Google Sheets Output Log" width="100%" style="border-radius:10px; border:1px solid #e5e7eb;">
-    <p style="font-size:14px; color:#6b7280; margin-top:10px;">
-      The output of executed nodes is logged automatically in <strong>Google Sheets</strong>.<br>
-      Rows marked <span style="color:#dc2626; font-weight:600;">for production</span> indicate videos ready for Veo3 rendering and YouTube publishing.
-    </p>
-  </div>
+<table>
+  <tr>
+    <td width="60%">
+      <img src="assets/execution_demo.png" alt="Workflow Execution" style="width: 100%; border: 1px solid #e1e4e8; border-radius: 8px;"/>
+    </td>
+    <td width="40%">
+      <img src="assets/execution-logged_sheet.png" alt="Google Sheets Data Log" style="width: 100%; border: 1px solid #e1e4e8; border-radius: 8px;"/>
+    </td>
+  </tr>
+</table>
 
 </div>
+
+### 📊 Execution Process
+
+After successful AI idea generation and cinematic prompt creation, the workflow automatically logs each concept to Google Sheets with a **"for production"** status, ensuring:
+
+- **Data Persistence**: All generated ideas are stored for tracking and management
+- **Production Readiness**: Concepts marked as ready for video generation
+- **Workflow Continuity**: Seamless handoff to the next automation stages
+
+The system captures AI-generated concepts like "Polar bear barista delicately serves espresso to penguin and seal customers. and prepares them for the Veo3 video generation pipeline.
+
+
+
 
 <!-- Veo3 Generation -->
 <div style="border: 1px solid #e1e4e8; border-radius: 12px; padding: 20px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); background: white; max-width: 850px;">
