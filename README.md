@@ -46,13 +46,18 @@ The **AI Video Factory** is a modular, production-ready automation workflow that
 | 📧 **Email Notifications** | Sends creative “Video Ready” messages with preview links. |
 
 ---
+
+<div align = "center">
+	
 ## ⚙️ Workflow Architecture
 
 <p align="center">
-  <img src="assets/video_creation_pipeline.png"  width=" 450 " alt="AI Video Creation Pipeline">
+  <img src="assets/video_creation_pipeline.png"  width=" 400 " alt="AI Video Creation Pipeline">
 	<br>
   <em>End-to-End Automated Video Production Pipeline</em>
 </p>
+
+</div>
 
 ---
 
@@ -170,7 +175,7 @@ margin:20px 0;">
 
 ### ⏳ Output 1 — Retry Logic in Action
 
-<img src="assets/wait_system_output.png" width="600"
+<img src="assets/wait_system_output.png" width="590"
 style="border-radius:14px;border:3px solid #3B82F6;
 box-shadow:0 10px 28px rgba(59,130,246,0.35);
 margin:15px 0;">
@@ -205,7 +210,7 @@ margin:15px 0;">
 style="border-radius:16px;border:3px solid #E5E7EB;
 box-shadow:0 10px 30px rgba(0,0,0,0.08);margin:20px 0;">
 
-<p style="font-size:14px;color:#4B5563;max-width:750px;margin:0 auto;">
+<p style="font-size:14px;color:#4B5563;max-width:600px;margin:0 auto;">
 This visual clearly differentiates the two possible outcomes of the <strong>Smart Retry System</strong>.<br>
 🟢 <strong>Success Path</strong> — smooth render completion, uploads, and success notifications.<br>
 🔴 <strong>Failure Path</strong> — intelligent retries followed by a Gmail alert if the job fails.
@@ -264,14 +269,14 @@ margin:15px 0;">
 
 ### 📺 Output 3 — YouTube Upload with Metadata
 
-<img src="assets/youtube_upload_output.png" width="600"
->
+<img src="assets/youtube_upload_output.png" width="600">
 
 <p align="center" style="font-size:14px;color:#4B5563;">
 🎬 The <strong>YouTube Upload</strong> node publishes videos directly with AI-generated <em>title, description, hashtags, and thumbnail</em>.<br>
 🚀 End-to-end automated publishing in one click.
 </p>
 	
+</div>
 
 ---
 
