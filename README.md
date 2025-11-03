@@ -367,18 +367,28 @@ Seamless AI-to-YouTube upload — fully automated with title, caption, and tags.
 ---
 ## 🗂 Repository Structure
 ```
-AI-Video-Factory-Veo3/
+AI-Video-Factory-Veo3-Automation-Pipeline/
 │
-├── 📄 README.md
-├── 🧠 AI Video Factory Automator-Veo3.json # main n8n workflow
+├── 📄 README.md                              # Main project documentation 
+├── 🧠 AI Video Factory Automator-Veo3.json   # Import-ready n8n workflow
+├── 📊 Veo3_AI_Video_Generator.xlsx           # Client-side input/log sheet
 ├── ⚙️ LICENSE
 ├── 🧩 assets/
-│ ├── workflow-overview.png
-│ ├── execution-demo.png
-│ ├── veo3-generation.png
-│ ├── youtube-publishing.png
-│ ├── email-notification.png
-│ └── video_creation_pipeline.png
+│   ├── banner.png                        # Main banner / cover
+│   ├── workflow-overview.png             # Overall workflow view
+│   ├── idea_generator.png                # Idea generator section
+│   ├── veo3_video_generation.png         # Veo3 generation overview
+│   ├── veo3_output.png                   # Veo3 prompt + API setup output
+│   ├── veo3_rendered_output.png          # Veo3 rendered video output
+│   ├── file_processing_upload.png        # File conversion + upload flow
+│   ├── drive_upload_output.png           # Drive upload result
+│   ├── youtube_upload_output.png         # YouTube upload result
+│   ├── gmail_success.gif                 # Gmail success demo (animated)
+│   ├── youtube_upload.gif                # YouTube upload demo (animated)
+│   ├── logging_notification.png          # Sheets + notification section
+│   ├── success_failure_flow.png          # Smart wait & retry visualization
+│   ├── failure_mail.png                  # Email fail alert
+│   └── ...                               # (other supporting images consolidated here)
 └── 📁 docs/
 ├── client_setup_guide.html
 ├── package.json
