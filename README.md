@@ -185,7 +185,7 @@ margin:15px 0;">
 
 ### 📧 Output 2 — Failure Notification Alert
 
-<img src="assets/failure_email_output.png" width="600"
+<img src="assets/failure_mail.png" width="600"
 style="border-radius:14px;border:3px solid #F87171;
 box-shadow:0 10px 28px rgba(248,113,113,0.35);
 margin:15px 0;">
