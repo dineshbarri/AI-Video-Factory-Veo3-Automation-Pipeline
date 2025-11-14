@@ -331,9 +331,21 @@ Seamless AI-to-YouTube upload — fully automated with title, caption, and tags.
 </tr>
 </table>
 
+---
+
+<div align="center" >
+
+
+
+[![AI Generated Videos](https://img.shields.io/badge/🎥Sample_Generated_Videos_Playlist-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/playlist?list=PLIKuBG-knvr4djncRlaR_XIEnqHyk52r8)
+
+
 </div>
 
 ---
+
+
+
 
 ## 🔧 Core Modules & Nodes
 
